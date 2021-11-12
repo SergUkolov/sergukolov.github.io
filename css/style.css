@@ -68,6 +68,33 @@ header{
 	padding: 20px 0;
 }
 
+.img-block {
+	position: relative;
+}
+
+#callmebtn {
+	height: 25px;
+	min-width: 120px;
+	padding: 10px;
+	text-align: center;
+	background-color: green;
+	border-radius: 15px;
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	cursor: pointer;
+}
+
+.contacts-block {
+	padding: 5px 25px;
+	border-radius: 5px;
+	z-index: 30;
+	background-color: white;
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+}
+
 
 
 .profile-photo{
